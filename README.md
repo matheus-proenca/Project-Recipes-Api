@@ -54,9 +54,9 @@ Neste projeto, verificamos se você é capaz de:
 
   1. Clone o repositório
 
-  - Use o comando: `git clone git@github.com:tryber/csharp-0x-projeto-api-de-receitas.git`.
+  - Use o comando: `git clone git@github.com:tryber/csharp-030-csharp-projeto-api-de-receitas.git`.
   - Entre na pasta do repositório que você acabou de clonar:
-    - `cd csharp-0x-projeto-api-de-receitas`
+    - `cd csharp-030-csharp-projeto-api-de-receitas`
 
   2. Instale as dependências
   
@@ -71,7 +71,7 @@ Neste projeto, verificamos se você é capaz de:
     - Exemplo: `git checkout master`
   - Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
     - Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    - Exemplo: `git checkout -b joaozinho-csharp-0x-projeto-api-de-receitas`
+    - Exemplo: `git checkout -b joaozinho-csharp-030-csharp-projeto-api-de-receitas`
 
   4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
 
@@ -88,11 +88,11 @@ Neste projeto, verificamos se você é capaz de:
 
   5. Adicione a sua branch com o novo `commit` ao repositório remoto
 
-  - Usando o exemplo anterior: `git push -u origin joaozinho-csharp-0x-projeto-api-de-receitas`
+  - Usando o exemplo anterior: `git push -u origin joaozinho-csharp-030-csharp-projeto-api-de-receitas`
 
   6. Crie um novo `Pull Request` _(PR)_
 
-  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/csharp-0x-projeto-api-de-receitas/pulls)
+  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/csharp-030-csharp-projeto-api-de-receitas/pulls)
   - Clique no botão verde _"New pull request"_
   - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   - Coloque um título para a sua _Pull Request_
@@ -100,7 +100,7 @@ Neste projeto, verificamos se você é capaz de:
   - Clique no botão verde _"Create pull request"_
   - Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   - **Não se preocupe em preencher mais nada por enquanto!**
-  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/csharp-0x-projeto-api-de-receitas/pulls) e confira que o seu _Pull Request_ está criado
+  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/csharp-030-csharp-projeto-api-de-receitas/pulls) e confira que o seu _Pull Request_ está criado
 
 </details>
 
@@ -131,7 +131,7 @@ Neste projeto, verificamos se você é capaz de:
 
     - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
 
-    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`.
+    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-030-csharp`.
 
   Caso tenha alguma dúvida, [aqui tem um vídeo explicativo](https://vimeo.com/362189205).
 
@@ -521,7 +521,7 @@ Neste projeto, verificamos se você é capaz de:
 Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. 
 **Leva menos de 3 minutos!**
 
-[FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
+[FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH30-CSHARP&template=betrybe/csharp-0x-projeto-api-de-receitas)
 
 </details>
 
