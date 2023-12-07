@@ -42,20 +42,33 @@ public class RecipesController : ControllerBase
     [HttpPost]
     public IActionResult Create([FromBody] Recipe recipe)
     {
-        throw new NotImplementedException();
+        _service.AddRecipe(recipe);
+        return Created("", recipe);
     }
 
     // 4 - Sua aplicação deve ter o endpoint PUT /recipe
     [HttpPut("{name}")]
     public IActionResult Update(string name, [FromBody] Recipe recipe)
     {
-        throw new NotImplementedException();
+        var findRecipe = _service.RecipeExists(recipe.Name);
+        if (findRecipe)
+        {
+            _service.UpdateRecipe(recipe);
+            return NoContent();
+        }
+        return BadRequest();
     }
 
     // 5 - Sua aplicação deve ter o endpoint DEL /recipe
     [HttpDelete("{name}")]
     public IActionResult Delete(string name)
     {
-        throw new NotImplementedException();
+        var findRecipe = _service.RecipeExists(name);
+        if (findRecipe)
+        {
+            _service.DeleteRecipe(name);
+            return NoContent();
+        }
+        return NotFound();
     }
 }
